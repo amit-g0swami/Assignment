@@ -1,0 +1,77 @@
+
+.uploaderb{
+    max-width: 600px;
+    border-radius: 0.625rem;
+    margin-bottom: 0.5rem;
+    border-width: 1px;
+    background : #232234;
+    border-radius: 0.625rem;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.post__avatar{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color :  #1f1b2c;
+}
+.uploaderb > h3 {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.009rem;
+    font-weight:400;
+}
+.additionalsection{
+    background-color :  #1f1b2c;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.additionalsectionb{
+    display: flex;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.009rem;
+    font-weight:400;
+}
+.additionalsectionp > h3 {
+    color:"white";
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.009rem;
+    font-weight:400;
+}
+.additionalsectionl > h3 {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.009rem;
+    font-weight:400;
+}
+.saved{
+    display: flex;
+}
+.saved > h3 {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.009rem;
+    font-weight:400;
+}
+.toggleicon {
+   color: white;
+    margin-left: 6px;
+}
+.imageUpload {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.imageupload__progress {
+  width: 100%;
+}

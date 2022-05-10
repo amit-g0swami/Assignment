@@ -1,0 +1,56 @@
+.rightcard__card{
+    max-width: 16.875rem;
+    background-color: #232234;
+    width: 100%;
+    margin-top: 2rem;
+    padding-bottom: 0.3rem;
+    border-radius: 0.625rem;
+}
+.profilebg__image > img{
+    width: 100%;
+    height: 6.75rem;
+    object-fit: cover;
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+    justify-content: centers;
+    align-items: center;
+}
+.profile__userdp{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: -20px;
+    margin-left: 6rem;
+    right: auto;
+}
+.post__avatarleftsection{
+    border: 2px solid white;
+}
+.usernamestyle{
+    color: white;
+    width: 15.875rem;
+    text-align: center;
+    overflow: hidden;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0.8rem;
+}
+.profile__assissment{
+align-items: center;
+border-radius: 0.625rem;
+margin-top: 1.2rem;
+justify-content: center;
+}
+.profile__assissment > h4 {
+ 
+    color: white;
+    padding: 10px;
+    background-color: #232234;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.profile__userinfo{
+    display: flex;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+}

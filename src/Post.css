@@ -1,0 +1,125 @@
+.post{
+    max-width: 600px;
+    border-radius: 0.625rem;
+    margin-bottom: 0.5rem;
+    border-width: 1px;
+    background : #232234;
+    border-radius: 0.625rem;
+}
+.post__images{
+    object-fit: contain;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color : #232234;
+}
+.post__image{
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+    background-color : #232234;
+    height: 100%;
+}
+.post__text{
+    color: white;
+    font-size: 14px;
+    line-height: 1.25rem;
+    letter-spacing: 0.031rem;
+    font-weight: normal;
+    white-space: pre-wrap;
+    padding: 1rem 2rem 0.5rem;
+    background-color : #232234;
+}
+.post__header{
+    display: flex;
+    align-items: center;
+    padding:17px; 
+    background-color : #232234;
+    border-radius: 0.625rem;
+}
+.post__avatar{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color : #232234;
+}
+.post__user{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 1rem;
+    cursor: pointer;
+    background-color : #232234;
+}
+.post__userName{
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.009rem;
+    font-weight:400;
+    background-color : #232234;
+}
+.post__userTimestamp{
+    margin-top: 0px;
+    margin-inline: 0px;
+    margin-bottom: 0px;
+    color: gray;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    letter-spacing: 0.025rem;
+    font-weight: 400;
+    background-color : #232234;
+}
+.post__option{
+    display: flex;
+    margin-left: auto; 
+  margin-right: 0;
+  align-items: center;
+}
+.post__options{
+    background-color : #232234;
+    color: white;
+}
+.post__footer{
+    display: flex;
+    margin: 1rem 0.5rem;
+    background-color : #232234;
+}
+.post__footerEmoji{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 28%;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    background-color : #232234;
+    margin-bottom: 1rem;
+}
+.post__footerEmojitype{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color : #232234;
+    flex-basis: 28%;
+}
+.post__footerEmojitypes{
+    background-color : #232234;
+    letter-spacing: 0.078rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+}
+.post__footerEmojitype > p {
+    background-color : #232234;
+    margin-left: 0.2rem;
+}
+.post__footerEmojitype>p>span{
+    background-color : #232234;
+}
+.app__signup {
+    display: flex;
+    flex-direction: column;
+  }
